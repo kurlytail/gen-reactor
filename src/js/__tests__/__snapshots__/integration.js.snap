@@ -926,20 +926,6 @@ info: sgen is done
 "
 `;
 
-exports[`# integration test ## should generate design and run reactor commands 1`] = `
-"
-info: loading map templates/map.json
-info: Initializing git repository testoutput/.git
-info: Generated testoutput/.prettierrc from template templates/.prettierrc._
-info: Committed generated files
-info: Attempting to use branch master-sgen-generated
-info: Creating new branch master-sgen-generated
-warn: Checkout branch master
-warn: Checkout branch master
-info: sgen is done
-"
-`;
-
 exports[`# integration test ## should print help options 1`] = `
 "Usage:
   node sgen [OPTION]

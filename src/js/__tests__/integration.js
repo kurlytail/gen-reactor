@@ -15,8 +15,8 @@ describe('# integration test', () => {
             'sgen -g pom -g `pwd`/dist/reactor.min.js -d src/test/fixture/design.json -o testoutput'
         ).toString();
         expect(output).toMatchSnapshot();
-        output = execSync('npm install', { cwd: 'testoutput' }).toString();
-        output = execSync('npm run lint', { cwd: 'testoutput' }).toString();
-        output = execSync('mvn compile', { cwd: 'testoutput' }).toString();
+        execSync('npm install', { cwd: 'testoutput', stdio: 'inherit' });
+        execSync('npm run lint', { cwd: 'testoutput', stdio: 'inherit' });
+        execSync('mvn compile', { cwd: 'testoutput', stdio: 'inherit' });
     });
 });

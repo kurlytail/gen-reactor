@@ -1,0 +1,13 @@
+{
+  "_cG5n8k35EempdbFzvL3GnA": {
+    "clazz": "MasterDesign",
+    "name": "gen-reactor",
+    "cell": [],
+    "tube": []
+  },
+  "_cERxwE35EempdbFzvL3GnA": {
+    "clazz": "Layer",
+    "name": "swarm",
+    "constraint": []
+  }
+}

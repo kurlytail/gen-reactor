@@ -2,7 +2,7 @@
 
 exports[`# integration test ## should generate design and run pom commands with reactor extensions 1`] = `
 "info: Loaded generator @kurlytail/gen-pom@1.2.23
-info: Loaded generator /Users/ashwin/pmgr/gen-reactor/dist/reactor.min.js@0.0.1
+
 info: loading map node_modules/@kurlytail/gen-pom/templates/map.json
 info: loading extension templates/extensions/java/map-json-reactor._
 info: loading extension node_modules/@kurlytail/gen-pom/templates/extensions/pom-group-id._

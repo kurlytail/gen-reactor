@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`# integration test ## should generate design and run pom commands with reactor extensions 1`] = `
-"info: Loaded generator @kurlytail/gen-pom@1.2.23
+"
 
 info: loading map node_modules/@kurlytail/gen-pom/templates/map.json
 info: loading extension templates/extensions/java/map-json-reactor._
@@ -936,6 +936,7 @@ Options:
   -e, --extension=ARG+ extension directories or files
   -o, --output=ARG     output directory for generated files
   -g, --generator=ARG+ generators to be used
+  -p, --options=ARG+   extra option json/yaml files
   -h, --help           display this help
 "
 `;

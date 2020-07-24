@@ -1,7 +1,7 @@
 {
     "name": "@kurlytail/gen-reactor",
     "description": "REACTOR project generator",
-    "version": "1.3.97",
+    "version": "1.3.98",
     "main": "dist/reactor.min.js",
     "devDependencies": {
         "@babel/cli": "7.10.5",
